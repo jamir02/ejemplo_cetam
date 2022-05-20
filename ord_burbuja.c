@@ -25,4 +25,10 @@ int main(){
             }
         }
     }    
+    printf("\n");
+    printf("La lista de numeros ordenados es :");
+    for (i=0;i<SIZE;i++){
+        printf("\n");
+        printf("%d", ord_vector[i]);
+    }
 }
